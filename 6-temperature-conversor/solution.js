@@ -3,7 +3,7 @@ let temperature = prompt(
 );
 
 while (temperature) {
-  if (temperature === "c") {
+  if (temperature === "c" || "C") {
     let celcius = prompt(
       "Type the temperature to be converted to Fahrenheit. Use . to separate the numbers"
     );
@@ -14,7 +14,7 @@ while (temperature) {
     let FahrenheitTemp = ((celcius - 32) * 5) / 9;
     alert(FahrenheitTemp);
     break;
-  } else if (temperature === "f") {
+  } else if (temperature === "f" || "F") {
     let fahrenheit = prompt(
       "Type the temperature to be converted to Celcius. Use . to separate the numbers"
     );
